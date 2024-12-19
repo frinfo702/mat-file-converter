@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  matlab-processor:
+    build: .
+    volumes:
+      - ./data/input:/usr/src/app/data/input
+      - ./data/output:/usr/src/app/data/output
+    container_name: matlab_processor
+    restart: "no"
