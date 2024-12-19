@@ -11,7 +11,7 @@ first of all, install git and docker
 
 After installing above
 ```bash
-$ git clone https://github.com/frinfo702/mat-file-converter.git
+git clone https://github.com/frinfo702/mat-file-converter.git
 ```
 
 please move the repository
