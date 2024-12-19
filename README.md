@@ -1,7 +1,7 @@
 # mat-file-converter
-Let's convert `.mat` file to `.csv` file
+Let's convert `.mat` files to `.csv`.
 # usage 
-first of all, install git and docker
+First of all, install git and docker.
 
 🐱git install
 - [windows](https://git-scm.com/downloads/win)
@@ -14,11 +14,11 @@ After installing above
 git clone https://github.com/frinfo702/mat-file-converter.git
 ```
 
-please move the repository
+Please change the repository
 ```bash
 cd mat-file-converter
 ```
-set your `.mat`file on `data/input` directory, then excute these command
+Set your `.mat`file on `data/input` directory, then excute these command
 
 ```bash
 docker-compose build
